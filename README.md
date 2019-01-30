@@ -12,8 +12,8 @@ mantisbt:
   links:
     - mysql
   volumes:
-    - /srv/mantis/config:/var/lib/www/html/config
-	- /srv/mantis/custom:/var/lib/www/html/custom
+    - /srv/mantis/config:/var/www/html/config
+    - /srv/mantis/custom:/var/www/html/custom
   restart: always
 
 mysql:
